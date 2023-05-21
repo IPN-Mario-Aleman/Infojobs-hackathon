@@ -10,7 +10,7 @@ const Layout = ({ children }: props) => {
   return (
     <>
       <Header />
-      <main>
+      <main className='max-w-[1300px] m-auto'>
         {children}
       </main>
       <Footer />
